@@ -1,0 +1,21 @@
+#career-container {
+    height: auto;
+  }
+  
+  .empty-div {
+    height: 120px;
+  }
+  
+  .left-career-box {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+  .right-career-box {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }

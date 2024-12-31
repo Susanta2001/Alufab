@@ -1,0 +1,43 @@
+.school-stack{
+    background-color: black;
+    width: 100%;
+    height:600px;
+}
+.school-stack-left-container{
+    width: 48%;
+    height: 80%;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    position: relative;
+    /* overflow: hidden; */
+}
+.school-stack-right-container{
+    width: 48%;
+    color:white;
+}
+.stack-card{
+    margin-top: 8rem;
+}
+.button-div{
+    display: flex;
+    justify-content: flex-end;
+}
+.button-div button{
+    outline: none;
+    border: none;
+    padding: 12px;
+    margin-top: 3rem;
+}
+.our-mission-card{
+    color: white;
+    font-size: 32px;
+    width: 100%;
+    background-color: rgb(42, 231, 137);
+    text-align: center;
+    position: absolute;
+    transition: bottom 0.3s ease-in-out;
+}
+.transition-class{
+bottom: 0%;
+}

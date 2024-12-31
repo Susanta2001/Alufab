@@ -1,0 +1,15 @@
+.form-container form{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 1rem;
+}
+.row-identifier{
+    display: flex;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group input,
+.form-group select{
+    border: 1px solid green;
+}

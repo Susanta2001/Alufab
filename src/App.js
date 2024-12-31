@@ -9,6 +9,9 @@ import Insights from './components/Insights';
 import Careers from './components/Careers';
 import Blogs from './components/Blogs'
 import Academic from './components/Academic';
+import AdmissionForm from './components/AdmissionForm';
+import Trial from './components/Trial';
+import AboutPage from './components/AboutPage';
 
 function App() {
   const router = createBrowserRouter([
@@ -17,6 +20,27 @@ function App() {
       element:
       <>
         <Academic/>
+      </>
+    },
+    {
+      path:'/admission',
+      element:
+      <>
+        <AdmissionForm/>
+      </>
+    },
+    {
+      path:'/trial',
+      element:
+      <>
+        <Trial/>
+      </>
+    },
+    {
+      path:'/about-page',
+      element:
+      <>
+        <AboutPage/>
       </>
     },
     {
