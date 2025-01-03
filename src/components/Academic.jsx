@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Academic.css'
+// import '../css/Academic.css'
 import academyImgOne from '../components/Images/ImgOne.png'
 import academyImgTwo from '../components/Images/ImgTwo.png'
 import academyImgThree from '../components/Images/ImgThree.png'

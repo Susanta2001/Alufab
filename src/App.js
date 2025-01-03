@@ -12,6 +12,7 @@ import Academic from './components/Academic';
 import AdmissionForm from './components/AdmissionForm';
 import Trial from './components/Trial';
 import AboutPage from './components/AboutPage';
+import Campus from './components/Campus';
 
 function App() {
   const router = createBrowserRouter([
@@ -41,6 +42,13 @@ function App() {
       element:
       <>
         <AboutPage/>
+      </>
+    },
+    {
+      path:'/campus',
+      element:
+      <>
+        <Campus/>
       </>
     },
     {
